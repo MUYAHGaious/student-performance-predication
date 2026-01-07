@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (demo data included for interview/showcase purposes)
+# Raw data - generally not tracked, but included for this demo
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+!data/raw/student_data.csv
+
+# Processed data - included for demo
+!data/processed/cleaned_data.csv
+!data/processed/data_splits.pkl
+
+# Models (included for demo/interview purposes)
+!models/best_model.pkl
+!models/best_model.joblib
+!models/model_metadata.json
+
+# But ignore other large model formats
+models/*.h5
+models/*.pt
+models/*.onnx
+*.keras
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# API secrets
+api_keys.txt
+credentials.json
+secrets/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Internal documentation (not for GitHub/interviewers)
+API_DEVELOPMENT_GUIDE.md
+DESIGN_DECISIONS_AND_ALTERNATIVES.md
+IMPLEMENTATION_PLAN.md
+PROJECT_SUMMARY.md
+QUICKSTART.md
+TECHNICAL_DOCUMENTATION.md
+test_api.sh
+test_api.py
+docs/

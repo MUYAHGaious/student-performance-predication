@@ -305,7 +305,7 @@ This project is developed for educational and interview purposes.
 
 Developed for AI/ML Engineer Interview Task
 
-**Contact:** [Your Name/Email]
+**Contact:** muyahgaious97@gmail.com
 
 ---
 
